@@ -7,7 +7,7 @@
  * @copyright Famous Industries, Inc. 2014
  */
 
-var OptionsManager = require('../../famous/core/OptionsManager');
+var OptionsManager = require('../../core/OptionsManager');
 
   /**
    * Ordinary Differential Equation (ODE) Integrator.

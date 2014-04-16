@@ -8,7 +8,7 @@
  */
 
 var TouchTracker = require('./TouchTracker');
-var EventHandler = require('../famous/core/EventHandler');
+var EventHandler = require('../core/EventHandler');
 
   /**
    * Handles piped in touch events. Emits 'start', 'update', and 'events'

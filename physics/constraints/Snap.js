@@ -8,7 +8,7 @@
  */
 
 var Constraint = require('./Constraint');
-var Vector = require('../../famous/math/Vector');
+var Vector = require('../../math/Vector');
 
   /**
    *  A spring constraint is like a spring force, except that it is always

@@ -8,7 +8,7 @@
  */
 
 var Constraint = require('./Constraint');
-var Vector = require('../../famous/math/Vector');
+var Vector = require('../../math/Vector');
 
   /**
    *  A wall describes an infinite two-dimensional plane that physics bodies

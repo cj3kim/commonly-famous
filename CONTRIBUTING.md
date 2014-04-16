@@ -121,7 +121,7 @@ following naming schema:
 
     bug/repo-where-issue-was-filed/GH-issue-number/kebab-cased-description
 
-So if you were fixing a bug for issue #42 in the `famous/core` repo, you would
+So if you were fixing a bug for issue #42 in the `core` repo, you would
 name your branch `bug/core/GH-42/particle-render-flicker`
 
 
@@ -159,8 +159,8 @@ we've created the following guidelines:
 
 * If you've encountered an exception with a stack trace that tells you which
   famous module file an error occurred, look at the path to that file and the
-  name of the repo to file in will follow `famous/` in the file name. For
-  example, if you encounter an exception in `famous/physics/bodies/Particle.js`,
+  name of the repo to file in will follow `` in the file name. For
+  example, if you encounter an exception in `physics/bodies/Particle.js`,
   you should file your issue in "physics" repo.
 * If you've encountered a general rendering and animating bugs where something
   is not being displayed or is being displayed incorrectly, you should file your
@@ -235,23 +235,23 @@ either a private beta user or as a contributor, you can email the tools team at
 <tools@famo.us>.
 
 
-[famous-issues]: https://github.com/famous/famous/issues
-[core-issues]: https://github.com/famous/core/issues
-[events-issues]: https://github.com/famous/events/issues
-[inputs-issues]: https://github.com/famous/inputs/issues
-[math-issues]: https://github.com/famous/math/issues
-[modifiers-issues]: https://github.com/famous/modifiers/issues
-[physics-issues]: https://github.com/famous/physics/issues
-[surfaces-issues]: https://github.com/famous/surfaces/issues
-[transitions-issues]: https://github.com/famous/transitions/issues
-[utilities-issues]: https://github.com/famous/utilities/issues
-[views-issues]: https://github.com/famous/views/issues
-[widgets-issues]: https://github.com/famous/widgets/issues
+[famous-issues]: https://github.com/issues
+[core-issues]: https://github.com/core/issues
+[events-issues]: https://github.com/events/issues
+[inputs-issues]: https://github.com/inputs/issues
+[math-issues]: https://github.com/math/issues
+[modifiers-issues]: https://github.com/modifiers/issues
+[physics-issues]: https://github.com/physics/issues
+[surfaces-issues]: https://github.com/surfaces/issues
+[transitions-issues]: https://github.com/transitions/issues
+[utilities-issues]: https://github.com/utilities/issues
+[views-issues]: https://github.com/views/issues
+[widgets-issues]: https://github.com/widgets/issues
 
-[famous]: https://github.com/famous/famous
+[famous]: https://github.com/famous
 [git-branching-model]: http://nvie.com/posts/a-successful-git-branching-model/
 [semver]: http://semver.org/
-[fork-famous]: https://github.com/Famous/famous/fork
+[fork-famous]: https://github.com/Famous/fork
 [unix-principles]: http://www.faqs.org/docs/artu/ch01s06.html
 [esr]: http://www.catb.org/esr/
 [taoup]: http://www.catb.org/esr/writings/taoup/

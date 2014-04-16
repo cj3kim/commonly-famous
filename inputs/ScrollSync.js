@@ -7,8 +7,8 @@
  * @copyright Famous Industries, Inc. 2014
  */
 
-var EventHandler = require('../famous/core/EventHandler');
-var Engine = require('../famous/core/Engine');
+var EventHandler = require('../core/EventHandler');
+var Engine = require('../core/Engine');
 
   /**
    * Handles piped in mousewheel events.

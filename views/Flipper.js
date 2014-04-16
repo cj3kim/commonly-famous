@@ -7,11 +7,11 @@
  * @copyright Famous Industries, Inc. 2014
  */
 
-var Transform = require('../famous/core/Transform');
-var Transitionable = require('../famous/transitions/Transitionable');
-var RenderNode = require('../famous/core/RenderNode');
-var OptionsManager = require('../famous/core/OptionsManager');
-var Utility = require('../famous/utilities/Utility');
+var Transform = require('../core/Transform');
+var Transitionable = require('../transitions/Transitionable');
+var RenderNode = require('../core/RenderNode');
+var OptionsManager = require('../core/OptionsManager');
+var Utility = require('../utilities/Utility');
 
   /**
    * Allows you to link two renderables as front and back sides that can be

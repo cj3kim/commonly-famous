@@ -7,11 +7,11 @@
  * @copyright Famous Industries, Inc. 2014
  */
 
-var ContainerSurface = require('../famous/surfaces/ContainerSurface');
-var EventHandler = require('../famous/core/EventHandler');
+var ContainerSurface = require('../surfaces/ContainerSurface');
+var EventHandler = require('../core/EventHandler');
 var Scrollview = require('./Scrollview');
-var Utility = require('../famous/utilities/Utility');
-var OptionsManager = require('../famous/core/OptionsManager');
+var Utility = require('../utilities/Utility');
+var OptionsManager = require('../core/OptionsManager');
 
   /**
    * A Container surface with a scrollview automatically added. The convenience of ScrollContainer lies in

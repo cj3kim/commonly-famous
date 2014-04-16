@@ -7,13 +7,13 @@
  * @copyright Famous Industries, Inc. 2014
  */
 
-var Transform = require('../famous/core/Transform');
-var MouseSync = require('../famous/inputs/MouseSync');
-var TouchSync = require('../famous/inputs/TouchSync');
-var GenericSync = require('../famous/inputs/GenericSync');
-var Transitionable = require('../famous/transitions/Transitionable');
-var EventHandler = require('../famous/core/EventHandler');
-var Utilities = require('../famous/math/Utilities');
+var Transform = require('../core/Transform');
+var MouseSync = require('../inputs/MouseSync');
+var TouchSync = require('../inputs/TouchSync');
+var GenericSync = require('../inputs/GenericSync');
+var Transitionable = require('../transitions/Transitionable');
+var EventHandler = require('../core/EventHandler');
+var Utilities = require('../math/Utilities');
 
   /**
    * Makes added render nodes responsive to drag beahvior.

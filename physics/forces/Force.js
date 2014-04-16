@@ -7,8 +7,8 @@
  * @copyright Famous Industries, Inc. 2014
  */
 
-var Vector = require('../../famous/math/Vector');
-var EventHandler = require('../../famous/core/EventHandler');
+var Vector = require('../../math/Vector');
+var EventHandler = require('../../core/EventHandler');
 
   /**
    * Force base class.

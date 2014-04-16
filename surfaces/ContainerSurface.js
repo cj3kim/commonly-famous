@@ -8,8 +8,8 @@
  * @copyright Famous Industries, Inc. 2014
  */
 
-var Surface = require('../famous/core/Surface');
-var Context = require('../famous/core/Context');
+var Surface = require('../core/Surface');
+var Context = require('../core/Context');
 
   /**
    * ContainerSurface is an object designed to contain surfaces and

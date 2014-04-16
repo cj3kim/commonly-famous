@@ -7,9 +7,9 @@
  * @copyright Famous Industries, Inc. 2014
  */
 
-var Vector = require('../../famous/math/Vector');
-var Transform = require('../../famous/core/Transform');
-var EventHandler = require('../../famous/core/EventHandler');
+var Vector = require('../../math/Vector');
+var Transform = require('../../core/Transform');
+var EventHandler = require('../../core/EventHandler');
 var Integrator = require('../integrators/SymplecticEuler');
 
   /**

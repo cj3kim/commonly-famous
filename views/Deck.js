@@ -7,10 +7,10 @@
  * @copyright Famous Industries, Inc. 2014
  */
 
-var Transform = require('../famous/core/Transform');
-var OptionsManager = require('../famous/core/OptionsManager');
-var Transitionable = require('../famous/transitions/Transitionable');
-var Utility = require('../famous/utilities/Utility');
+var Transform = require('../core/Transform');
+var OptionsManager = require('../core/OptionsManager');
+var Transitionable = require('../transitions/Transitionable');
+var Utility = require('../utilities/Utility');
 var SequentialLayout = require('./SequentialLayout');
 
   /**

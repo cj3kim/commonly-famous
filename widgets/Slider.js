@@ -7,11 +7,11 @@
  * @copyright Famous Industries, Inc. 2014
  */
 
-var Surface = require('../famous/core/Surface');
-var CanvasSurface = require('../famous/surfaces/CanvasSurface');
-var GenericSync = require('../famous/inputs/GenericSync');
-var Transform = require('../famous/core/Transform');
-var EventHandler = require('../famous/core/EventHandler');
+var Surface = require('../core/Surface');
+var CanvasSurface = require('../surfaces/CanvasSurface');
+var GenericSync = require('../inputs/GenericSync');
+var Transform = require('../core/Transform');
+var EventHandler = require('../core/EventHandler');
 
   /** @constructor */
   function Slider(options)

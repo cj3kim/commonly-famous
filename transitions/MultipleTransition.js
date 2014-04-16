@@ -7,7 +7,7 @@
  * @copyright Famous Industries, Inc. 2014
  */
 
-var Utility = require('../famous/utilities/Utility');
+var Utility = require('../utilities/Utility');
 
   /**
    * Transition meta-method to support transitioning multiple

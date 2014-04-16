@@ -93,7 +93,7 @@ You can obtain one at http://mozilla.org/MPL/2.0/.
 [famous-site]: http://famo.us
 [mpl]: http://www.mozilla.org/MPL/2.0/
 [mpl-faq]: http://www.mozilla.org/MPL/2.0/FAQ.html
-[bugs-general]: http://github.com/Famous/famous/issues
+[bugs-general]: http://github.com/Famous/issues
 [bugs-sumobule]: http://github.com/Famous/core/issues
 [forum]: http://forum.famo.us
 [launch-install]: http://famo.us/install.html
@@ -103,7 +103,7 @@ You can obtain one at http://mozilla.org/MPL/2.0/.
 [launch-university]: http://famo.us/university
 [famous-organization-github]: http://github.com/Famous
 [github-examples]: http://github.com/Famous/examples
-[contributing]: https://github.com/Famous/famous/blob/master/CONTRIBUTING.md
-[contributing-issues]: https://github.com/Famous/famous/blob/master/CONTRIBUTING.md#issues
+[contributing]: https://github.com/Famous/blob/master/CONTRIBUTING.md
+[contributing-issues]: https://github.com/Famous/blob/master/CONTRIBUTING.md#issues
 [irc-getting-started]: http://freenode.net/using_the_network.shtml
 [esr-questions]: http://www.catb.org/esr/faqs/smart-questions.html

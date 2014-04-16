@@ -5,7 +5,7 @@
  * @license MPL 2.0
  * @copyright Famous Industries, Inc. 2014
  */
-var EventHandler = require('../famous/core/EventHandler');
+var EventHandler = require('../core/EventHandler');
 
   /**
    * The Physics Engine is responsible for mediating Bodies and their

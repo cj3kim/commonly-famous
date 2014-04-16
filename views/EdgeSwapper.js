@@ -7,10 +7,10 @@
  * @copyright Famous Industries, Inc. 2014
  */
 
-var CachedMap = require('../famous/transitions/CachedMap');
-var Entity = require('../famous/core/Entity');
-var EventHandler = require('../famous/core/EventHandler');
-var Transform = require('../famous/core/Transform');
+var CachedMap = require('../transitions/CachedMap');
+var Entity = require('../core/Entity');
+var EventHandler = require('../core/EventHandler');
+var Transform = require('../core/Transform');
 var RenderController = require('./RenderController');
 
   /**

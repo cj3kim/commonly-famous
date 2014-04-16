@@ -7,14 +7,14 @@
  * @copyright Famous Industries, Inc. 2014
  */
 
-var Entity = require('../famous/core/Entity');
-var RenderNode = require('../famous/core/RenderNode');
-var Transform = require('../famous/core/Transform');
-var ViewSequence = require('../famous/core/ViewSequence');
-var Modifier = require('../famous/core/Modifier');
-var OptionsManager = require('../famous/core/OptionsManager');
-var Transitionable = require('../famous/transitions/Transitionable');
-var TransitionableTransform = require('../famous/transitions/TransitionableTransform');
+var Entity = require('../core/Entity');
+var RenderNode = require('../core/RenderNode');
+var Transform = require('../core/Transform');
+var ViewSequence = require('../core/ViewSequence');
+var Modifier = require('../core/Modifier');
+var OptionsManager = require('../core/OptionsManager');
+var Transitionable = require('../transitions/Transitionable');
+var TransitionableTransform = require('../transitions/TransitionableTransform');
 
   /**
    * A layout which divides a context into several evenly-sized grid cells.

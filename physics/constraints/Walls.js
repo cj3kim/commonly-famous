@@ -9,7 +9,7 @@
 
 var Constraint = require('./Constraint');
 var Wall = require('./Wall');
-var Vector = require('../../famous/math/Vector');
+var Vector = require('../../math/Vector');
 
   /**
    *  Walls combines one or more Wall primitives and exposes a simple API to

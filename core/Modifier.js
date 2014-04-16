@@ -8,8 +8,8 @@
  */
 
 var Transform = require('./Transform');
-var Transitionable = require('../famous/transitions/Transitionable');
-var TransitionableTransform = require('../famous/transitions/TransitionableTransform');
+var Transitionable = require('../transitions/Transitionable');
+var TransitionableTransform = require('../transitions/TransitionableTransform');
 
   /**
    *

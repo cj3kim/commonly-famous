@@ -11,7 +11,7 @@ var RenderNode = require('./RenderNode');
 var EventHandler = require('./EventHandler');
 var ElementAllocator = require('./ElementAllocator');
 var Transform = require('./Transform');
-var Transitionable = require('../famous/transitions/Transitionable');
+var Transitionable = require('../transitions/Transitionable');
 
   var _originZeroZero = [0, 0];
 

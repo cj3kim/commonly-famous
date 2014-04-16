@@ -8,10 +8,10 @@
  */
 
 var Particle = require('./Particle');
-var Transform = require('../../famous/core/Transform');
-var Vector = require('../../famous/math/Vector');
-var Quaternion = require('../../famous/math/Quaternion');
-var Matrix = require('../../famous/math/Matrix');
+var Transform = require('../../core/Transform');
+var Vector = require('../../math/Vector');
+var Quaternion = require('../../math/Quaternion');
+var Matrix = require('../../math/Matrix');
 
   /**
    * A unit controlled by the physics engine which extends the zero-dimensional

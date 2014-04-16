@@ -8,8 +8,8 @@
  */
 
 var Transitionable = require('./Transitionable');
-var Transform = require('../famous/core/Transform');
-var Utility = require('../famous/utilities/Utility');
+var Transform = require('../core/Transform');
+var Utility = require('../utilities/Utility');
 
   /**
    * A class for transitioning the state of a Transform by transitioning

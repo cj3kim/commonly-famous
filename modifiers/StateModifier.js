@@ -7,10 +7,10 @@
  * @copyright Famous Industries, Inc. 2014
  */
 
-var Modifier = require('../famous/core/Modifier');
-var Transform = require('../famous/core/Transform');
-var Transitionable = require('../famous/transitions/Transitionable');
-var TransitionableTransform = require('../famous/transitions/TransitionableTransform');
+var Modifier = require('../core/Modifier');
+var Transform = require('../core/Transform');
+var Transitionable = require('../transitions/Transitionable');
+var TransitionableTransform = require('../transitions/TransitionableTransform');
 
   /**
    *  A collection of visual changes to be

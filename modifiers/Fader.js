@@ -1,5 +1,5 @@
-var Transitionable = require('../famous/transitions/Transitionable');
-var OptionsManager = require('../famous/core/OptionsManager');
+var Transitionable = require('../transitions/Transitionable');
+var OptionsManager = require('../core/OptionsManager');
 
   /**
    * Modifier that allows you to fade the opacity of affected renderables in and out.

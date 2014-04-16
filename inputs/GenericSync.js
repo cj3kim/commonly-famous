@@ -7,7 +7,7 @@
  * @copyright Famous Industries, Inc. 2014
  */
 
-var EventHandler = require('../famous/core/EventHandler');
+var EventHandler = require('../core/EventHandler');
 var TouchSync = require('./TouchSync');
 var ScrollSync = require('./ScrollSync');
 

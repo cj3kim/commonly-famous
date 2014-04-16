@@ -7,9 +7,9 @@
  * @copyright Famous Industries, Inc. 2014
  */
 
-var Surface = require('../famous/core/Surface');
-var EventHandler = require('../famous/core/EventHandler');
-var RenderController = require('../famous/views/RenderController');
+var Surface = require('../core/Surface');
+var EventHandler = require('../core/EventHandler');
+var RenderController = require('../views/RenderController');
 
   /**
    * A view for transistioning between two surfaces based

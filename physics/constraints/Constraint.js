@@ -7,7 +7,7 @@
  * @copyright Famous Industries, Inc. 2014
  */
 
-var EventHandler = require('../../famous/core/EventHandler');
+var EventHandler = require('../../core/EventHandler');
 
   /**
    *  Allows for two circular bodies to collide and bounce off each other.

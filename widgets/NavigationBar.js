@@ -7,10 +7,10 @@
  * @copyright Famous Industries, Inc. 2014
  */
 
-var Scene = require('../famous/core/Scene');
-var Surface = require('../famous/core/Surface');
-var Transform = require('../famous/core/Transform');
-var View = require('../famous/core/View');
+var Scene = require('../core/Scene');
+var Surface = require('../core/Surface');
+var Transform = require('../core/Transform');
+var View = require('../core/View');
 
   /**
    * A view for display for displaying the title of the current page

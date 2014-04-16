@@ -7,7 +7,7 @@
  * @copyright Famous Industries, Inc. 2014
  */
 
-var Surface = require('../famous/core/Surface');
+var Surface = require('../core/Surface');
 
   /**
    * Creates a famous surface containing video content. Currently adding

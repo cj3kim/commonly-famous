@@ -7,16 +7,16 @@
  * @copyright Famous Industries, Inc. 2014
  */
 
-var Utility = require('../famous/utilities/Utility');
-var PhysicsEngine = require('../famous/physics/PhysicsEngine');
-var Particle = require('../famous/physics/bodies/Particle');
-var Drag = require('../famous/physics/forces/Drag');
-var Spring = require('../famous/physics/forces/Spring');
-var GenericSync = require('../famous/inputs/GenericSync');
-var EventHandler = require('../famous/core/EventHandler');
-var OptionsManager = require('../famous/core/OptionsManager');
-var ViewSequence = require('../famous/core/ViewSequence');
-var Scroller = require('../famous/views/Scroller');
+var Utility = require('../utilities/Utility');
+var PhysicsEngine = require('../physics/PhysicsEngine');
+var Particle = require('../physics/bodies/Particle');
+var Drag = require('../physics/forces/Drag');
+var Spring = require('../physics/forces/Spring');
+var GenericSync = require('../inputs/GenericSync');
+var EventHandler = require('../core/EventHandler');
+var OptionsManager = require('../core/OptionsManager');
+var ViewSequence = require('../core/ViewSequence');
+var Scroller = require('../views/Scroller');
 
   /**
    * Scrollview will lay out a collection of renderables sequentially in the specified direction, and will
