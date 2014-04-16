@@ -7,71 +7,72 @@
  * @copyright Famous Industries, Inc. 2014
  */
 
-define(function(require, exports, module) {
-    /**
-     * A singleton that maintains a global registry of Surfaces.
-     *   Private.
-     *
-     * @private
-     * @static
-     * @class Entity
-     */
 
-    var entities = [];
 
-    /**
-     * Get entity from global index.
-     *
-     * @private
-     * @method get
-     * @param {Number} id entity reigstration id
-     * @return {Surface} entity in the global index
-     */
-    function get(id) {
-        return entities[id];
-    }
+  /**
+   * A singleton that maintains a global registry of Surfaces.
+   *   Private.
+   *
+   * @private
+   * @static
+   * @class Entity
+   */
 
-    /**
-     * Overwrite entity in the global index
-     *
-     * @private
-     * @method set
-     * @param {Number} id entity reigstration id
-     * @return {Surface} entity to add to the global index
-     */
-    function set(id, entity) {
-        entities[id] = entity;
-    }
+  var entities = [];
 
-    /**
-     * Add entity to global index
-     *
-     * @private
-     * @method register
-     * @param {Surface} entity to add to global index
-     * @return {Number} new id
-     */
-    function register(entity) {
-        var id = entities.length;
-        set(id, entity);
-        return id;
-    }
+  /**
+   * Get entity from global index.
+   *
+   * @private
+   * @method get
+   * @param {Number} id entity reigstration id
+   * @return {Surface} entity in the global index
+   */
+  function get(id) {
+      return entities[id];
+  }
 
-    /**
-     * Remove entity from global index
-     *
-     * @private
-     * @method unregister
-     * @param {Number} id entity reigstration id
-     */
-    function unregister(id) {
-        set(id, null);
-    }
+  /**
+   * Overwrite entity in the global index
+   *
+   * @private
+   * @method set
+   * @param {Number} id entity reigstration id
+   * @return {Surface} entity to add to the global index
+   */
+  function set(id, entity) {
+      entities[id] = entity;
+  }
 
-    module.exports = {
-        register: register,
-        unregister: unregister,
-        get: get,
-        set: set
-    };
-});
+  /**
+   * Add entity to global index
+   *
+   * @private
+   * @method register
+   * @param {Surface} entity to add to global index
+   * @return {Number} new id
+   */
+  function register(entity) {
+      var id = entities.length;
+      set(id, entity);
+      return id;
+  }
+
+  /**
+   * Remove entity from global index
+   *
+   * @private
+   * @method unregister
+   * @param {Number} id entity reigstration id
+   */
+  function unregister(id) {
+      set(id, null);
+  }
+
+  module.exports = {
+      register: register,
+      unregister: unregister,
+      get: get,
+      set: set
+  };
+

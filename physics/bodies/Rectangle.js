@@ -7,55 +7,54 @@
  * @copyright Famous Industries, Inc. 2014
  */
 
-define(function(require, exports, module) {
-    var Body = require('./Body');
-    var Matrix = require('famous/math/Matrix');
+var Body = require('./Body');
+var Matrix = require('../../famous/math/Matrix');
 
-    /**
-     * Implements a rectangular geometry for an Body with
-     * size = [width, height].
-     *
-     * @class Circle
-     * @extends Body
-     * @constructor
-     */
-    function Rectangle(options) {
-        options = options || {};
-        this.size = options.size || [0,0];
-        Body.call(this, options);
-    }
+  /**
+   * Implements a rectangular geometry for an Body with
+   * size = [width, height].
+   *
+   * @class Circle
+   * @extends Body
+   * @constructor
+   */
+  function Rectangle(options) {
+      options = options || {};
+      this.size = options.size || [0,0];
+      Body.call(this, options);
+  }
 
-    Rectangle.prototype = Object.create(Body.prototype);
-    Rectangle.prototype.constructor = Rectangle;
+  Rectangle.prototype = Object.create(Body.prototype);
+  Rectangle.prototype.constructor = Rectangle;
 
-    /**
-     * Basic setter for size.
-     * @method setSize
-     * @param size {Array} size = [width, height]
-     */
-    Rectangle.prototype.setSize = function setSize(size) {
-        this.size = size;
-        this.setMomentsOfInertia();
-    };
+  /**
+   * Basic setter for size.
+   * @method setSize
+   * @param size {Array} size = [width, height]
+   */
+  Rectangle.prototype.setSize = function setSize(size) {
+      this.size = size;
+      this.setMomentsOfInertia();
+  };
 
-    Rectangle.prototype.setMomentsOfInertia = function setMomentsOfInertia() {
-        var m = this.mass;
-        var w = this.size[0];
-        var h = this.size[1];
+  Rectangle.prototype.setMomentsOfInertia = function setMomentsOfInertia() {
+      var m = this.mass;
+      var w = this.size[0];
+      var h = this.size[1];
 
-        this.inertia = new Matrix([
-            [m * h * h / 12, 0, 0],
-            [0, m * w * w / 12, 0],
-            [0, 0, m * (w * w + h * h) / 12]
-        ]);
+      this.inertia = new Matrix([
+          [m * h * h / 12, 0, 0],
+          [0, m * w * w / 12, 0],
+          [0, 0, m * (w * w + h * h) / 12]
+      ]);
 
-        this.inverseInertia = new Matrix([
-            [12 / (m * h * h), 0, 0],
-            [0, 12 / (m * w * w), 0],
-            [0, 0, 12 / (m * (w * w + h * h))]
-        ]);
-    };
+      this.inverseInertia = new Matrix([
+          [12 / (m * h * h), 0, 0],
+          [0, 12 / (m * w * w), 0],
+          [0, 0, 12 / (m * (w * w + h * h))]
+      ]);
+  };
 
-    module.exports = Rectangle;
+  module.exports = Rectangle;
 
-});
+
